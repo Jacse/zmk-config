@@ -13,6 +13,10 @@
     chosen { zmk,physical-layout = &default_layout; };
 };
 
+&mt {
+    tapping-term-ms = <180>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
